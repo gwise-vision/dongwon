@@ -1,4 +1,0 @@
-﻿
-System.Data.SQLite 버전이 변경될 경우
-1. BarcodeServer>x64, x86 폴더에 있는 System.Data.SQLite.dll 파일을 삭제한다.
-2. bin\Debug 폴더에 있는 x64, x86 폴더를 프로젝트폴더로 복사한다.
