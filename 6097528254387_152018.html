@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>Document</title>
+<style>
+@media print {
+        html,
+        body {
+            height: auto;
+        }
+        .page {
+            page-break-before: always;
+            height: 99%;
+        }
+
+        .page:first-child {
+            page-break-before: avoid;
+        }
+    }
+    @page {
+		margin: 0px;
+	}
+	body {
+		margin: 0px;
+	}
+    .page {
+        width: 310px;
+        height: 415px;
+        position: relative;
+        overflow: hidden;
+    }
+</style>
+</head>
+<body>
+<div class="page">
+	<img style="width:100%;height:100%;" src="https://gwise-vision.github.io/dongwon/6097528254387.png"/>
+</div>
+</body>
+</htm>
